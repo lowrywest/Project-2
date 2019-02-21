@@ -12,7 +12,9 @@ public class MesoInherit extends MesoAbstract
 	}
 
 	@Override
-	public int[] calAverage() {
+	public int[] calAverage() 
+	{
+		Double avg= (vals[0]+vals[1]+vals[2]+vals[3])/4.0;
 		// TODO Auto-generated method stub
 		return null;
 	}
