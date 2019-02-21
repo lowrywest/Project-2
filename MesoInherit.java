@@ -27,7 +27,7 @@ public class MesoInherit extends MesoAbstract
 				charVals[2]= (int)Math.ceil(avg);
 			}
 		// TODO Auto-generated method stub
-		return null;
+		return charVals;
 	}
 
 	@Override
