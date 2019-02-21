@@ -6,9 +6,7 @@ public class MesoInherit extends MesoAbstract
 	
 	public MesoInherit(MesoStation Stid)
 	{
-		String STIDval= "";
-		STIDval=Stid.getStID();
-		vals=STIDval.toCharArray();
+		vals=Stid.getStID().toCharArray();
 	}
 
 	@Override
