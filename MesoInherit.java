@@ -31,9 +31,11 @@ public class MesoInherit extends MesoAbstract
 	}
 
 	@Override
-	public char letterAverage() {
+	public char letterAverage() 
+	{
 		// TODO Auto-generated method stub
-		return 0;
+		char val= (char)charVals[2];
+		return val;
 	}
 	
 }
