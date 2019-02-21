@@ -1,6 +1,8 @@
 //TODO
 public class MesoInherit extends MesoAbstract
 {
+	char[] vals= new char[4];
+	int[] charVals= new int[3];
 
 	@Override
 	public int[] calAverage() {
