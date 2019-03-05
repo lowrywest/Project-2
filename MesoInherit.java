@@ -23,12 +23,15 @@ public class MesoInherit extends MesoAbstract
 		//Setting the second location in the array to the rounded up value of the average
 		charVals[1]= (int)Math.floor(avg);
 		
+			//comparing the decimal point value of the average to see whether to return the ceil or floor value
 			if(avg-Math.floor(avg)< .5)
 				{
+				//Setting the third array value to the rounded down average if the decimal value of the average is less than 0.5
 				charVals[2]= (int)Math.floor(avg);
 				}
 			else
 			{
+				//Setting the third array value to the rounded up average if the decimal value of the average is greater than or equal to 0.5
 				charVals[2]= (int)Math.ceil(avg);
 			}
 		// TODO Auto-generated method stub
