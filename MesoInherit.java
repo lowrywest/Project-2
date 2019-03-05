@@ -8,14 +8,19 @@ public class MesoInherit extends MesoAbstract
 	//Making the constructor for the MesoInherit object that is from the MesoAbstract Interface
 	public MesoInherit(MesoStation Stid)
 	{
+		//Setting the value of the MesoInherit object
 		vals=Stid.getStID().toCharArray();
 	}
 
 	@Override
+	//Creating the calAverage method descibed in the Abstract class
 	public int[] calAverage() 
 	{
+		//Creating a local variable that holds the average of all the chars
 		Double avg= (vals[0]+vals[1]+vals[2]+vals[3])/4.0;
+		//Setting the first location in the array to the rounded down value of the average
 		charVals[0]= (int)Math.ceil(avg);
+		//Setting the second location in the array to the rounded up value of the average
 		charVals[1]= (int)Math.floor(avg);
 		
 			if(avg-Math.floor(avg)< .5)
