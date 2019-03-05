@@ -1,6 +1,7 @@
 //TODO
 public class MesoInherit extends MesoAbstract
 {
+	//Creating the global Arrays to hold the values
 	char[] vals= new char[4];
 	int[] charVals= new int[3];
 	
