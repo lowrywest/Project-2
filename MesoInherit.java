@@ -34,14 +34,14 @@ public class MesoInherit extends MesoAbstract
 				//Setting the third array value to the rounded up average if the decimal value of the average is greater than or equal to 0.5
 				charVals[2]= (int)Math.ceil(avg);
 			}
-		// TODO Auto-generated method stub
+		// returning the array of ints
 		return charVals;
 	}
 
 	@Override
 	public char letterAverage() 
 	{
-		// TODO Auto-generated method stub
+		//returning the char value of the last value in the int array
 		return (char)charVals[2];
 	}
 	
