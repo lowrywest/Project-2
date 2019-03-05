@@ -5,6 +5,7 @@ public class MesoInherit extends MesoAbstract
 	char[] vals= new char[4];
 	int[] charVals= new int[3];
 	
+	//Making the constructor for the MesoInherit object that is from the MesoAbstract Interface
 	public MesoInherit(MesoStation Stid)
 	{
 		vals=Stid.getStID().toCharArray();
