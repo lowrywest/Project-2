@@ -11,6 +11,7 @@ public class MesoStation
 		this.StID = StID;
 	}
 
+	//Creating the getStID method that just returns the global string variable 
 	public String getStID() {
 		return StID;
 	}
